@@ -1,7 +1,0 @@
-irb :001 > "world wide web".split
- => ["world", "wide", "web"]
-
- irb :001 > b = String.new("blue")
- => "blue"
-irb :002 > String.try_convert("red")
- => "red"
