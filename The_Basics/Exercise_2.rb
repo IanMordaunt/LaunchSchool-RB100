@@ -1,8 +1,9 @@
- dates = [1975, 2004, 2013, 2001, 1981]
+thousands = 2468 / 1000
+hundreds = 2468 % 1000 / 100
+tens = 2468 % 1000 % 100 / 10
+ones = 2468 % 10
 
- puts dates [0]
- puts dates [1] 
- puts dates [2]
- puts dates [3]
- puts dates [4]
-
+puts "thousands: #{thousands}"
+puts "hundreds: #{hundreds}"
+puts "tens: #{tens}"
+puts "ones: #{ones}" 
