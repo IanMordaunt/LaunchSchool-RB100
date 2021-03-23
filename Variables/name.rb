@@ -1,6 +1,15 @@
 
-puts "Whats your name?"
+puts "What's your first name?"
 
-name = gets.chomp
+first_name = gets.chomp
 
-puts "Nice to meet you" + " " + name + "!"
+puts "What's your last name?"
+
+last_name = gets.chomp
+
+
+puts "Nice to meet you" + " " + first_name + " " + last_name + "!"
+
+10.times do
+  puts first_name + " " + last_name
+end
