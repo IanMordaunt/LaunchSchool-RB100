@@ -8,5 +8,3 @@ elsif n <= 100
 else 
   puts "#{n} is above 100"
 end
-
-
