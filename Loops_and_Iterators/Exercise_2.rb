@@ -7,4 +7,3 @@ while x != "STOP" do
   puts "Want me to ask you again?"
   x = gets.chomp
 end
-
