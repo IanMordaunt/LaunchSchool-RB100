@@ -1,8 +1,8 @@
 
 
-mammals = {dog: "cainine", snake: "reptile", cat: "feline", beatle: "insect"}
+creatures = {dog: "cainine", snake: "reptile", cat: "feline", beatle: "insect"}
 
-if mammals.has_value?("feline")
+if creatures.has_value?("feline")
   puts "Meow!"
 else 
   puts "No!"
